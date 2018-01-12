@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Main
 
-Things you may want to cover:
+Repo created during class to introduce us to the devise authorisation gem that can be used with rails.
 
-* Ruby version
+For this you need to run:
 
-* System dependencies
+```
+gem install devise
 
-* Configuration
+```
 
-* Database creation
+And it creates the functionality to create new users, logging in and out from your account, and also performing precise tasks for someone who's logged in and not for someone who's not logged in (like adding, deleting or editing an article).
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- There's still some bugs in the code which need to be fixed in order to make the app running properly.
